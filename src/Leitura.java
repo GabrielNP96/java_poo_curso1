@@ -15,6 +15,5 @@ public class Leitura {
         System.out.println("Nome do Filme: " + filme);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         System.out.println("Avaliação: " + avaliacao);
-
     }
 }

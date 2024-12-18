@@ -9,14 +9,10 @@ public class OutroLoop {
         int totalDenotas = 0;
 
         while (nota != -1) {
-            System.out.println("Digite sua avaliação do filme pu -1 para encerrar: " + mediaAvaliacao/totalDenotas);
+            System.out.println("Digite sua avaliação do filme ou -1 para encerrar: " + mediaAvaliacao/totalDenotas);
             nota = leitura.nextDouble();
             mediaAvaliacao += nota;
             totalDenotas++;
-        }
-
-        if (notas != -1) {
-
         }
     }
 }
